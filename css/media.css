@@ -1,0 +1,481 @@
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    .row{
+        margin: 0;
+    }
+    .px-30{
+        padding: 0;
+    }
+    .w-s-1{
+        width: 8.33%;
+    }
+    .w-s-2{
+        width: 16.66%;
+    }
+    .w-s-3{
+        width: 25%;
+    }
+    .w-s-4{
+        width: 33.33%;
+    }
+    .w-s-5{
+        width: 41.66%;
+    }
+    .w-s-6{
+        width: 50%;
+    }
+    .w-s-7{
+        width: 58.33%;
+    }
+    .w-s-8{
+        width: 66.66%;
+    }
+    .w-s-9{
+        width: 75%;
+    }
+    .w-s-10{
+        width: 83.33%;
+    }
+    .w-s-11{
+        width: 91.66%;
+    }
+    .w-s-12{
+        width: 100%;
+    }
+    /* header */
+    nav, .cta{
+        display: none;
+    }
+
+    /* banner */
+    .banner .left{
+        text-align: center;
+    }
+    .banner .title h1{
+        font-size: var(--fs-32);
+    }
+    .banner .right{
+        display: none;
+    }
+    .m-s-lr{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* special-menu */
+    .special-menu .row{
+        justify-content: space-around;
+    }
+    .special-menu h2{
+        font-size: 24px;
+    }
+    .special-menu .tab{
+        margin: 0;
+        padding: 0;
+    }
+    .special-menu .tab ul li a{
+        font-size: 10px
+    }
+
+    /* Excellence Service */
+    .ex-service h2{
+        font-size: 24px;
+    }    
+    /* about us */
+    .about .left .box1, .about .left .box2{
+        display: none
+    } 
+    .about .right{
+        text-align: center;
+    }
+    .about .right h2{
+        font-size: 24px;
+    }
+
+        /* ............blog.............. */
+    .title{
+        text-align: center;
+    }
+
+    /* join member */
+    .px-32{
+        padding: 0;
+    }
+    .member .row{
+        justify-content: center;
+    }
+    .member form .email{
+        width: 300px;
+    }
+    .member h2{
+        font-size: 24px;
+    }
+    .member span{
+        font-size: 14px;
+    }
+    .member form .submit{
+        display: block;
+        left: 30%;
+    }
+}
+@media (min-width:576px) {
+    .container{
+        width: 540px;
+    }
+    .row{
+        margin: 0;
+    }
+    .px-30{
+        padding: 0;
+    }
+    .w-s-1{
+        width: 8.33%;
+    }
+    .w-s-2{
+        width: 16.66%;
+    }
+    .w-s-3{
+        width: 25%;
+    }
+    .w-s-4{
+        width: 33.33%;
+    }
+    .w-s-5{
+        width: 41.66%;
+    }
+    .w-s-6{
+        width: 50%;
+    }
+    .w-s-7{
+        width: 58.33%;
+    }
+    .w-s-8{
+        width: 66.66%;
+    }
+    .w-s-9{
+        width: 75%;
+    }
+    .w-s-10{
+        width: 83.33%;
+    }
+    .w-s-11{
+        width: 91.66%;
+    }
+    .w-s-12{
+        width: 100%;
+    }
+    /* header */
+    nav, .cta{
+        display: none;
+    }
+    /* banner */
+    .banner .left{
+        text-align: center;
+    }
+    .banner .right{
+        display: none;
+    }
+    .m-s-lr{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .box1, .box2, .box3, .box4{
+        display: none;
+    }
+    /* .special-menu */
+    .special-menu .row{
+        justify-content: space-around;
+    }
+    .special-menu .tab{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* about us */
+    .about .left .box1, .about .left .box2{
+        display: none
+    } 
+    .about .right{
+        text-align: center;
+    }
+
+    /* ............blog.............. */
+    .blog-news .title{
+        text-align: center;
+    }
+
+    /* join member */
+    .px-32{
+        padding: 0;
+    }
+    .member .row{
+        justify-content: center;
+    }
+    .member form .email{
+        width: 400px;
+    }
+}
+
+@media (min-width:768px) {
+    .container{
+        width: 720px;
+    }
+    .w-m-1{
+        width: 8.33%;
+    }
+    .w-m-2{
+        width: 16.66%;
+    }
+    .w-m-3{
+        width: 25%;
+    }
+    .w-m-4{
+        width: 33.33%;
+    }
+    .w-m-5{
+        width: 41.66%;
+    }
+    .w-m-6{
+        width: 50%;
+    }
+    .w-m-7{
+        width: 58.33%;
+    }
+    .w-m-8{
+        width: 66.66%;
+    }
+    .w-m-9{
+        width: 75%;
+    }
+    .w-m-10{
+        width: 83.33%;
+    }
+    .w-m-11{
+        width: 91.66%;
+    }
+    .w-m-12{
+        width: 100%;
+    }
+    /* .about */
+    .about .right{
+        text-align: start;
+    }
+
+    /* blog */
+    .blog .row{
+        justify-content: center;
+    }
+
+    /* join member */
+    .member form .email{
+        width: 600px;
+    }
+}
+@media (min-width:992px) {
+    .container{
+        width: 960px;
+    }
+    .w-l-1{
+        width: 8.33%;
+    }
+    .w-l-2{
+        width: 16.66%;
+    }
+    .w-l-3{
+        width: 25%;
+    }
+    .w-l-4{
+        width: 33.33%;
+    }
+    .w-l-5{
+        width: 41.66%;
+    }
+    .w-l-6{
+        width: 50%;
+    }
+    .w-l-7{
+        width: 58.33%;
+    }
+    .w-l-8{
+        width: 66.66%;
+    }
+    .w-l-9{
+        width: 75%;
+    }
+    .w-l-10{
+        width: 83.33%;
+    }
+    .w-l-11{
+        width: 91.66%;
+    }
+    .w-l-12{
+        width: 100%;
+    }
+
+    /* header */
+    nav{
+        display: block;
+        margin-right: auto;
+    }
+    .cta{
+        display: flex;
+    }
+    .hamburger{
+        display: none;
+    }
+
+    /* .banner */
+    .banner .left{
+        text-align: left;
+    }
+    .banner .right{
+        display: block;
+    }
+    .box1, .box2, .box3, .box4{
+        display: block;
+    }
+    .box2{
+        right: -21px;
+    }
+    .box4{
+        right: -2%;
+    }
+    .box3{
+        right: 55%;
+        /* top: 65%; */
+    }
+
+    /* .special-menu */
+    .special-menu .row{
+        justify-content: space-between;
+    }
+    /* .excellent-service */
+    .px-30{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    /* about-us */
+    .about .left .box1{
+        display: block;
+    }
+    /* .blog */
+    .blog-news .title{
+        text-align: start;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        width: 1140px;
+    }
+    .box3{
+        right: 65%;
+    }
+    .box4{
+        right: 10%;
+    }
+    .w-xl-1{
+        width: 8.33%;
+    }
+    .w-xl-2{
+        width: 16.66%;
+    }
+    .w-xl-3{
+        width: 25%;
+    }
+    .w-xl-4{
+        width: 33.33%;
+    }
+    .w-xl-5{
+        width: 41.66%;
+    }
+    .w-xl-6{
+        width: 50%;
+    }
+    .w-xl-7{
+        width: 58.33%;
+    }
+    .w-xl-8{
+        width: 66.66%;
+    }
+    .w-xl-9{
+        width: 75%;
+    }
+    .w-xl-10{
+        width: 83.33%;
+    }
+    .w-xl-11{
+        width: 91.66%;
+    }
+    .w-xl-12{
+        width: 100%;
+    }
+    nav{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    /* about-us */
+    .about .left .box2{
+        display: block;
+    }
+    .about .left .box2{
+        top: -15%;
+        right: 1%;
+    }
+
+    /* join member */
+    .px-32{
+        padding-left: 32%;
+        padding-right: 32%;
+    }
+}
+
+@media (min-width:1400px) {
+    .container{
+        width: 1340px;
+    }
+    .box2{
+        right: 21px;
+    }
+    .box4{
+        right: 13%;
+    }
+    .w-xxl-1{
+        width: 8.33%;
+    }
+    .w-xxl-2{
+        width: 16.66%;
+    }
+    .w-xxl-3{
+        width: 25%;
+    }
+    .w-xxl-4{
+        width: 33.33%;
+    }
+    .w-xxl-5{
+        width: 41.66%;
+    }
+    .w-xxl-6{
+        width: 50%;
+    }
+    .w-xxl-7{
+        width: 58.33%;
+    }
+    .w-xxl-8{
+        width: 66.66%;
+    }
+    .w-xxl-9{
+        width: 75%;
+    }
+    .w-xxl-10{
+        width: 83.33%;
+    }
+    .w-xxl-11{
+        width: 91.66%;
+    }
+    .w-xxl-12{
+        width: 100%;
+    }
+}

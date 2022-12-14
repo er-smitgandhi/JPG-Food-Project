@@ -209,6 +209,7 @@ p{
     position: fixed;
     right: 5%;
     bottom: 5%;
+    z-index: 20;
 }
 .back-top a{
     padding: 30px;
@@ -316,6 +317,11 @@ nav ul li a:hover::before, .tab ul li a:hover::before{
     opacity: 1;
     visibility: visible;
 }
+.hamburger a i{
+    /* color: var(--primarycolor); */
+    color: var(--listcolor);
+}
+
 /* ...............Banner.............. */
 .banner{
     background-color: rgb(249, 218, 224);
@@ -374,7 +380,7 @@ nav ul li a:hover::before, .tab ul li a:hover::before{
     font-weight: var(--fw-500);
 }
 .box2{
-    right: 10px;
+    right: 40px;
 }
 .box3-left{
     height: 50%;
@@ -413,7 +419,7 @@ nav ul li a:hover::before, .tab ul li a:hover::before{
 .box4{
     width: 150px;
     height: 90px;
-    right: 10%;
+    right: 15%;
     top: 60%;
 }
 
@@ -634,7 +640,7 @@ nav ul li a:hover::before, .tab ul li a:hover::before{
     object-fit: contain;
 } 
 .blog-news .title{
-    padding: 20px;
+    padding: 10px;
     margin: 0;
 }
 .blog-news .title h3{
