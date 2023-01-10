@@ -11,15 +11,15 @@ a{
 }
 :root{
     --bodycolor: #ffffff;
-    --primarycolor: #ff3300;
-    --listhover-color: #ff3300;
-    --btn-color: #ff3300;
+    --primarycolor: red;
+    --listhover-color: red;
+    --btn-color: red;
     --btn-text-color: #ffffff;
     --btnhover-color: #ffffff;
     --listcolor: #525050;
     --tab-listcolor: #525050;
-    --heading-color: #000000;
-    --black-heading-color: #000000;
+    --heading-color: red;
+    --black-heading-color: red;
     --banner-para-color: #525050;
     --para-color: #525050;
     --box-shadow-gray: rgb(221, 217, 217);
@@ -135,9 +135,6 @@ body{
 .d-none{
     display: none;
 }
-.c-none{
-    cursor: none;
-}
 .flex-basis-25{
     flex-basis: 25%;
 }
@@ -235,19 +232,6 @@ p{
     width: 100%;
     height: 100%;
 }
-/* cursor */
-.cursor {
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 99999;
-    pointer-events:none;
-}
-.cursor img{
-    width: 100%;
-}
 /* pre-loader */
 .pre-loader{
     width: 100%;
@@ -319,7 +303,7 @@ p{
 /* theme-setting */
 .theme-menu{
     position: fixed;
-    top: 60px;
+    top: 100px;
     left: 0;
     z-index: 9999;
 }
@@ -370,11 +354,10 @@ header{
     background-color: rgb(249, 218, 224);
     top: 0;
     z-index: 10;
-    cursor: none;
-    /* transition: 2s ease; */
+    transition: 2s ease;
 }
 .fixed{
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
     width: 100%;
     position: fixed;
 }
@@ -395,9 +378,6 @@ nav ul li a,.slide ul li a, .tab ul li a{
     font-weight: var(--fw-600);
     display: block;
     transition: all 0.5s;
-}
-nav ul li a{
-    cursor: none;
 }
 .tab ul li a{
     color: var(--tab-listcolor);
@@ -513,15 +493,9 @@ nav ul li a:hover::before,.slide ul li a:hover:before, .tab ul li a:hover::befor
 .banner{
     background-color: rgb(249, 218, 224);
     padding-top: 10px;
-    /* cursor: none; */
 }
-.banner .title h1 span{
-    /* font-size: var(--fs-48); */
-    font-weight: var(--fw-700);
-}
-.banner .title h1 span b{
-    font-style: oblique;
-    font-weight: var(--fw-700);
+.banner .title h1{
+    font-size: var(--fs-48);
 }
 .btn-top a{
     padding: 10px 20px;
@@ -738,19 +712,11 @@ nav ul li a:hover::before,.slide ul li a:hover:before, .tab ul li a:hover::befor
 }
 
 /* ............About us............ */
-#particles-js canvas{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
 .about{
-    background-color: var(--background-color);
-    z-index: 1; 
+    background-color: var(--background-color); 
 }
 .about .left{
     margin-top: 80px;
-    z-index: 200;
 }
 .about .left .left-img{
     width: 90%;
@@ -821,9 +787,7 @@ nav ul li a:hover::before,.slide ul li a:hover:before, .tab ul li a:hover::befor
     margin-left: 10px;
     margin-right: 10px;
 }
-.about .right .title{
-    /* z-index: 100000; */
-}
+
 /* ...........Blog Our Latest News........... */
 .blog-news{
     padding: 10px;

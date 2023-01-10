@@ -1,82 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="default">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodCity || Life is short, make it sweet.</title>
     <!-- favicon-icon -->
-    <link href="images/favicon.png" rel="icon" type="image/icon"/>
+    <link href="images/favicon.png" rel="icon" type="image/icon" />
     <!-- fontawasome -->
-    <link href="css/all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/all.min.css" rel="stylesheet" type="text/css" />
     <!-- fonts -->
-    <link href="css/font.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
     <!-- owlcarosel -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
     <!-- Animate css -->
     <!-- <link href="css/animate.min.css" rel="stylesheet" type="text/css"/> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- headline-css -->
+    <link href="css/headline.css" rel="stylesheet" type="text/css" />
+
     <!-- custome css -->
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link id="theme" href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- media -->
-    <link href="css/media.css" rel="stylesheet" type="text/css"/>
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
+    <!-- <div class="pre-loader">
+        <div class="loader">  
+            <div class="clock">
+
+            </div>
+        </div>
+    </div> -->
     <div class="back-top">
-        <a href="#top">
+        <a href="javascript:;">
             <i class="fa-solid fa-hand-point-up fa-beat"></i>
         </a>
     </div>
-    <div id="top"></div>
+    <!-- <div id="top"></div> -->
+    <div class="theme-menu">
+        <div class="theme-setting">
+            <i class="fa-solid fa-cog fa-spin"></i>
+        </div>
+        <div class="d-none">
+            <ul class="color-palate">
+                <li id="blue" class="color"></li>
+                <li id="violate" class="color"></li>
+                <li id="red" class="color"></li>
+                <li id="green" class="color"></li>
+                <li id="style" class="color"><i class="fa-solid fa-rotate-left"></i></li>
+            </ul>
+        </div>
+    </div>
     <header>
+        <!-- <div class='cursor'>
+            <img src="images/cursor.gif" alt="curser"/>
+        </div> -->
         <div class="container position-relative">
             <div class="row align-item-center justify-content-btwn">
                 <div class="logo">
-                    <img src="images/logo.png" alt="logo"/>
+                    <img src="images/logo.png" alt="logo" />
                 </div>
                 <nav>
-                    <ul class="d-flex" >
+                    <ul class="d-flex">
                         <li class="position-relative">
-                            <a href="javascript:;" >
+                            <a href="javascript:;" class="c-none">
                                 Home
                             </a>
                         </li>
                         <li class="mm-dropdown">
                             <span class="extra position-relative">
-                                <a href="javascript:;">
+                                <a href="javascript:;" class="c-none">
                                     Menu
                                 </a>
                             </span>
                             <div class="megamenu position-absolute d-flex">
                                 <div class="mega-list w-3">
                                     <div class="image">
-                                        <img src="images/gujarati-food.jpg" alt="gujarati"/>
+                                        <img src="images/gujarati-food.jpg" alt="gujarati" />
                                     </div>
                                     <h3 class="text-align-center">
                                         Gujarati Food
                                     </h3>
                                     <ul>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Dal Dhokli
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Khaman Dhokla
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Kathiyawadi dish
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Umbadiyu
                                             </a>
                                         </li>
-                                        <li class="position-relative">
+                                        <li class="position-relative" class="c-none">
                                             <a href="javascript:;">
                                                 Bengan Bhartha
                                             </a>
@@ -85,34 +115,34 @@
                                 </div>
                                 <div class="mega-list w-3">
                                     <div class="image">
-                                        <img src="images/panjabi-food.jpg" alt="gujarati"/>
+                                        <img src="images/panjabi-food.jpg" alt="gujarati" />
                                     </div>
                                     <h3 class="text-align-center">
                                         Panjabi Food
                                     </h3>
                                     <ul>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Amritsari Kulcha
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Chhole Bhature
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Amritsari Fish
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Dal Makhni
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Rajma Chaval
                                             </a>
                                         </li>
@@ -120,33 +150,33 @@
                                 </div>
                                 <div class="mega-list w-3">
                                     <div class="image">
-                                        <img src="images/south-food.png" alt="gujarati"/>
+                                        <img src="images/south-food.png" alt="gujarati" />
                                     </div>
                                     <h3 class="text-align-center">
                                         South Indian Food
                                     </h3>
                                     <ul>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Pongal
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
-                                               Mengu Vada
+                                            <a href="javascript:;" class="c-none">
+                                                Mengu Vada
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Dhosa
                                             </a>
                                         </li>
-                                        <li class="position-relative">
+                                        <li class="position-relative" class="c-none">
                                             <a href="javascript:;">
                                                 Idli Sambhar
                                             </a>
                                         </li>
-                                        <li class="position-relative">
+                                        <li class="position-relative" class="c-none">
                                             <a href="javascript:;">
                                                 Uttapama
                                             </a>
@@ -155,24 +185,24 @@
                                 </div>
                                 <div class="mega-list w-3">
                                     <div class="image">
-                                        <img src="images/Rajashthani-food.jpg" alt="gujarati"/>
+                                        <img src="images/Rajashthani-food.jpg" alt="gujarati" />
                                     </div>
                                     <h3 class="text-align-center">
                                         Rajashthani Food
                                     </h3>
                                     <ul>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Dal Bati Churma
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Mava Kachori
                                             </a>
                                         </li>
                                         <li class="position-relative">
-                                            <a href="javascript:;">
+                                            <a href="javascript:;" class="c-none">
                                                 Mohan Maas
                                             </a>
                                         </li>
@@ -188,7 +218,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                         </li>
                         <li class="dropdown position-relative">
                             <a href="javascript:;">
@@ -246,11 +276,216 @@
                         </a>
                     </div>
                 </div>
+                <div class="btn" id="dark">
+                    <a href="javascript:;">
+                        <i class="fa-solid fa-moon"></i>
+                    </a>
+                </div>
                 <div class="hamburger">
                     <a href="javascript:;">
                         <i class="fa-solid fa-bars"></i>
                     </a>
                 </div>
+            </div>
+            <div class="slide">
+                <ul class="d-flex">
+                    <li class="position-relative">
+                        <a href="javascript:;">
+                            Home
+                        </a>
+                    </li>
+                    <li class="mm-dropdown">
+                        <span class="extra position-relative">
+                            <a href="javascript:;">
+                                Menu
+                            </a>
+                        </span>
+                        <div class="slide-megamenu position-absolute d-flex">
+                            <div class="mega-list w-3">
+                                <div class="image">
+                                    <img src="images/gujarati-food.jpg" alt="gujarati" />
+                                </div>
+                                <h3 class="text-align-center">
+                                    Gujarati Food
+                                </h3>
+                                <ul>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Dal Dhokli
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Khaman Dhokla
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Kathiyawadi dish
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Umbadiyu
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Bengan Bhartha
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mega-list w-3">
+                                <div class="image">
+                                    <img src="images/panjabi-food.jpg" alt="gujarati" />
+                                </div>
+                                <h3 class="text-align-center">
+                                    Panjabi Food
+                                </h3>
+                                <ul>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Amritsari Kulcha
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Chhole Bhature
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Amritsari Fish
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Dal Makhni
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Rajma Chaval
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mega-list w-3">
+                                <div class="image">
+                                    <img src="images/south-food.png" alt="gujarati" />
+                                </div>
+                                <h3 class="text-align-center">
+                                    South Indian Food
+                                </h3>
+                                <ul>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Pongal
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Mengu Vada
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Dhosa
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Idli Sambhar
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Uttapama
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mega-list w-3">
+                                <div class="image">
+                                    <img src="images/Rajashthani-food.jpg" alt="gujarati" />
+                                </div>
+                                <h3 class="text-align-center">
+                                    Rajashthani Food
+                                </h3>
+                                <ul>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Dal Bati Churma
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Mava Kachori
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Mohan Maas
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Bajra Ki Raab
+                                        </a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <a href="javascript:;">
+                                            Moong Ki Daal Ka Halwa
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="javascript:;">
+                            Service
+                        </a>
+                        <ul class="slide-dropdown-menu">
+                            <li class="position-relative">
+                                <a href="javascript:;">
+                                    Table Service
+                                </a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="javascript:;">
+                                    Family Service
+                                </a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="javascript:;">
+                                    French Service
+                                </a>
+                            </li>
+                            <li class="position-relative">
+                                <a href="javascript:;">
+                                    Buffet Service
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="position-relative">
+                        <a href="javascript:;">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="javascript:;">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="position-relative">
+                        <a href="javascript:;">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -258,6 +493,9 @@
 
         <!-- banner -->
         <section class="banner py-80">
+            <!-- <div class='cursor d-none'>
+                <img src="images/cursor.gif" alt="curser" />
+            </div> -->
             <div class="container">
                 <div class="row align-item-center">
                     <div class="left w-s-12 w-l-5">
@@ -267,11 +505,19 @@
                             </a>
                         </div>
                         <div class="title">
-                            <h1>
-                                Instant Food, for Instant Hunger
+                            <h1 class="cd-headline letters scale">
+                                <span>
+                                    Instant Food, for Instant
+                                </span>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Burger</b>
+                                    <b>Pizza</b>
+                                    <!-- <b>steak</b> -->
+                                </span>
                             </h1>
                             <p class="m-tb-20">
-                                Retail food delivery is a courier service in which a restaurant, store or independent food-delivery company delivers food<br> to a Customer.
+                                Retail food delivery is a courier service in which a restaurant, store or independent
+                                food-delivery company delivers food<br> to a Customer.
                             </p>
                             <div class="btn">
                                 <a href="javascript:;">
@@ -282,36 +528,36 @@
                     </div>
                     <div class="right position-relative w-s-12 w-l-7">
                         <div class="image">
-                            <img src="images/banner-safe.png" alt="banner-safe"/>
+                            <img src="images/banner-safe.png" alt="banner-safe" />
                         </div>
                         <div class="box1 position-absolute">
-                            <h2>
+                            <h3>
                                 <i class="fa-solid fa-motorcycle"></i>
                                 Fast Delivery
-                            </h2>
+                            </h3>
                             <p>
                                 fast growning and promissing parcle<br> service in india.
                             </p>
                         </div>
                         <div class="box2 position-absolute">
-                            <h2>
+                            <h3>
                                 <i class="fa-solid fa-location-dot"></i>
                                 Nearest Place
-                            </h2>
+                            </h3>
                             <p>
                                 fast growning and promissing parcle<br> service in india.
                             </p>
                         </div>
                         <div class="box3 position-absolute">
                             <div class="box3-left position-relative" style="display: inline-block;">
-                                <img src="images/happy-1.png" alt="happy-1" class="happy-1 position-absolute"/>
-                                <img src="images/happy-2.jpeg" alt="happy-2" class="happy-2 position-absolute"/>
-                                <img src="images/happy-3.jpeg" alt="happy-3" class="happy-3 position-absolute"/>
+                                <img src="images/happy-1.png" alt="happy-1" class="happy-1 position-absolute" />
+                                <img src="images/happy-2.jpeg" alt="happy-2" class="happy-2 position-absolute" />
+                                <img src="images/happy-3.jpeg" alt="happy-3" class="happy-3 position-absolute" />
                             </div>
                             <div class="box3-right" style="display: inline-block;">
-                                <h2 style="margin-left: 10px;">
+                                <h3 style="margin-left: 10px;">
                                     Our Customer are happy
-                                </h2>
+                                </h3>
                                 <span class="s1">
                                     <i class="fa-solid fa-star"></i>
                                     3.5k
@@ -323,10 +569,10 @@
                             </div>
                         </div>
                         <div class="box4 position-absolute">
-                            <h2>
+                            <h3>
                                 <i class="fa-solid fa-utensils"></i>
                                 Dine in
-                            </h2>
+                            </h3>
                             <p>
                                 Enjoy your food crispy and Hot
                             </p>
@@ -388,7 +634,9 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/pasta.png" alt="green-salad"/>
+                            <a id="example1" href="images/pasta.png">
+                                <img src="images/pasta.png" alt="pasta" />
+                            </a>
                         </div>
                         <div class="name">
                             <h3>
@@ -422,7 +670,9 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/buzz-burger.png" alt="green-salad" />
+                            <a id="example2" href="images/buzz-burger.png">
+                                <img src="images/buzz-burger.png" alt="green-salad" />
+                            </a>
                         </div>
                         <div class="name">
                             <h3>
@@ -437,7 +687,7 @@
                                         <i class="fa-solid fa-star"></i>
                                     </span>
                                     <span class="prise">
-                                        $ 250 
+                                        $ 250
                                     </span>
                                     <span class="prise-d">$ 300</span>
                                 </div>
@@ -456,7 +706,7 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/pepperoni-pizza.png" alt="green-salad"/>
+                            <img src="images/pepperoni-pizza.png" alt="green-salad" />
                         </div>
                         <div class="name">
                             <h3>
@@ -490,7 +740,7 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/green-salad.png" alt="green-salad"/>
+                            <img src="images/green-salad.png" alt="green-salad" />
                         </div>
                         <div class="name">
                             <h3>
@@ -524,7 +774,7 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/smokin-burger.png" alt="green-salad"/>
+                            <img src="images/smokin-burger.png" alt="green-salad" />
                         </div>
                         <div class="name">
                             <h3>
@@ -558,7 +808,7 @@
 
                         </div>
                         <div class="image">
-                            <img src="images/American-burger.png" alt="green-salad"/>
+                            <img src="images/American-burger.png" alt="green-salad" />
                         </div>
                         <div class="name">
                             <h3>
@@ -585,7 +835,7 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
     </section>
@@ -600,11 +850,13 @@
                             Our Excellence Service
                         </h2>
                         <p class="m-tb-20">
-                            We live in a service economy where great customer between a service that's great excellent service.
+                            We live in a service economy where great customer between a service that's great excellent
+                            service.
                         </p>
                     </div>
                 </div>
-                <div class="service w-3 animate__animated animate__bounceInLeft wow w-s-12 w-m-6 w-xl-3" data-wow-delay="0.2s">
+                <div class="service w-3 animate__animated animate__bounceInLeft wow w-s-12 w-m-6 w-xl-3"
+                    data-wow-delay="0.2s">
                     <div class="content">
                         <div class="icon">
                             <i class="fa-solid fa-clipboard-list"></i>
@@ -649,7 +901,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="service w-3 animate__animated animate__bounceInRight wow w-s-12 w-m-6 w-xl-3" data-wow-delay="0.2s">
+                <div class="service w-3 animate__animated animate__bounceInRight wow w-s-12 w-m-6 w-xl-3"
+                    data-wow-delay="0.2s">
                     <div class="content">
                         <div class="icon">
                             <i class="fa-solid fa-credit-card"></i>
@@ -678,7 +931,8 @@
                             Our Special Chefs
                         </h2>
                         <p class="m-tb-20">
-                            You are the right place! We chenged our name to erflect our goal to make cooking more accessible for everyone.
+                            You are the right place! We chenged our name to erflect our goal to make cooking more
+                            accessible for everyone.
                         </p>
                     </div>
                 </div>
@@ -686,7 +940,7 @@
                     <div class="item w-s-12">
                         <div class="chef-d">
                             <div class="chef-img position-relative">
-                                <img src="images/jon.png" alt="jon"/>
+                                <img src="images/jon.png" alt="jon" />
                                 <div class="chef-name position-absolute">
                                     <h4>Jon ferveau</h4>
                                     <span>Acct.Chef</span>
@@ -697,7 +951,7 @@
                     <div class="item">
                         <div class="chef-d">
                             <div class="chef-img position-relative">
-                                <img src="images/sofia.png" alt="jon"/>
+                                <img src="images/sofia.png" alt="jon" />
                                 <div class="chef-name position-absolute">
                                     <h4>Sofia Vergara</h4>
                                     <span>Inter Chef</span>
@@ -708,7 +962,7 @@
                     <div class="item">
                         <div class="chef-d">
                             <div class="chef-img position-relative">
-                                <img src="images/Emjay.png" alt="jon"/>
+                                <img src="images/Emjay.png" alt="jon" />
                                 <div class="chef-name position-absolute">
                                     <h4>Emjay Enthony</h4>
                                     <span>Heasd Of Chef</span>
@@ -719,7 +973,7 @@
                     <div class="item">
                         <div class="chef-d">
                             <div class="chef-img position-relative">
-                                <img src="images/sam.png" alt="jon"/>
+                                <img src="images/sam.png" alt="jon" />
                                 <div class="chef-name position-absolute">
                                     <h4>Sam Herl</h4>
                                     <span>Assistant Chef</span>
@@ -727,20 +981,20 @@
                             </div>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About us -->
-    <section class="about">
+    <section class="about position-relative" id="particles-js">
         <div class="container">
             <div class="row justify-content-btwn align-item-center">
                 <div class="left w-6 position-relative animate__animated animate__fadeInLeft wow w-s-12 w-m-6">
                     <div class="left-img"></div>
-                    <img src="images/aboutus-img.png" alt="aboutus" class="position-absolute"/>
+                    <img src="images/aboutus-img.png" alt="aboutus" class="position-absolute" />
                     <div class="box1 position-absolute">
-                        <img src="images/dish.png" alt="dish"/>
+                        <img src="images/dish.png" alt="dish" />
                     </div>
                     <div class="box2 position-absolute">
                         <h5>
@@ -760,7 +1014,7 @@
                                 Dinner
                             </li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>
                 <div class="right w-5 animate__animated animate__fadeInRight wow w-s-12 w-m-6" data-wow-delay="0.5s">
                     <div class="title">
@@ -768,7 +1022,8 @@
                             About Us we have provide a quality driver
                         </h2>
                         <p class="m-tb-20">
-                            Fast delivery is a fast growing and promising courier and parcle service in india. With excellent customer service can con't on us to drliver.
+                            Fast delivery is a fast growing and promising courier and parcle service in india. With
+                            excellent customer service can con't on us to drliver.
                         </p>
                         <div class="btn">
                             <a href="javascript:;">
@@ -789,24 +1044,25 @@
                 <div class="px-30">
                     <div class="title text-align-center">
                         <h2>
-                            Blog Our Latest News 
+                            Blog Our Latest News
                         </h2>
                         <p class="m-tb-20">
-                            Have you ever browsed food blogs like mine and wondered how to start a food blog of your very own?
+                            Have you ever browsed food blogs like mine and wondered how to start a food blog of your
+                            very own?
                         </p>
                     </div>
                 </div>
                 <div class="blog-news w-4 animate__animated animate__fadeInUp  wow w-s-12 w-m-6 w-l-4">
                     <div class="news">
                         <div class="image">
-                            <img src="images/pao.png" alt="pao"/>
+                            <img src="images/pao.png" alt="pao" />
                         </div>
                         <div class="title">
                             <h3>
                                 Better Then Takeout Pao chicken
                             </h3>
                             <p class="m-tb-20">
-                                This spicy, tangy, and sweet better then tackout no peanut kung pao chicken stir recipt. 
+                                This spicy, tangy, and sweet better then tackout no peanut kung pao chicken stir recipt.
                             </p>
                             <a href="javascript:;">
                                 READ MORE
@@ -819,14 +1075,15 @@
                     <div class="news">
                         <div class="news">
                             <div class="image">
-                                <img src="images/broccoli-salad.png" alt="pao"/>
+                                <img src="images/broccoli-salad.png" alt="pao" />
                             </div>
                             <div class="title">
                                 <h3>
                                     The Best Sesame Soy broccoli salad
                                 </h3>
                                 <p class="m-tb-20">
-                                    hello!! Broccoli salad with a sweet and tangy dressing is my new go to for summer parties. 
+                                    hello!! Broccoli salad with a sweet and tangy dressing is my new go to for summer
+                                    parties.
                                 </p>
                                 <a href="javascript:;">
                                     READ MORE
@@ -840,14 +1097,15 @@
                     <div class="news">
                         <div class="news">
                             <div class="image">
-                                <img src="images/pao.png" alt="pao"/>
+                                <img src="images/pao.png" alt="pao" />
                             </div>
                             <div class="title">
                                 <h3>
                                     Better Then Takeout Sesame Noodles
                                 </h3>
                                 <p class="m-tb-20">
-                                    This super easy version of a dan dan noodles is fast, flowerfull, and vegitarian to boot. It's definitely.   
+                                    This super easy version of a dan dan noodles is fast, flowerfull, and vegitarian to
+                                    boot. It's definitely.
                                 </p>
                                 <a href="javascript:;">
                                     READ MORE
@@ -868,7 +1126,7 @@
                 <div class="px-32">
                     <div class="title text-align-center">
                         <h2>
-                            Join Our   Member And Get
+                            Join Our Member And Get
                         </h2>
                         <span>
                             Discount Up to 50%
@@ -877,8 +1135,8 @@
                 </div>
                 <div class="form">
                     <form class="position-relative">
-                        <input type="email" placeholder="Enter Your Email Here" class="email"/>
-                        <input type="submit" value="SIGN IN" class="submit position-absolute"/>
+                        <input type="email" placeholder="Enter Your Email Here" class="email" />
+                        <input type="submit" value="SIGN IN" class="submit position-absolute" />
                     </form>
                 </div>
             </div>
@@ -891,7 +1149,7 @@
             <div class="row justify-content-btwn">
                 <div class="w-3 w-s-12 w-m-10 w-l-4">
                     <div class="logo">
-                        <img src="images/logo.png" alt="logo"/>
+                        <img src="images/logo.png" alt="logo" />
                     </div>
                     <div>
                         <p class="m-tb-20">
@@ -901,24 +1159,24 @@
                     <div class="social-icon">
                         <a href="javscript:;">
                             <span>
-                                <img src="images/facebook.png" alt="fb"/>
+                                <img src="images/facebook.png" alt="fb" />
                             </span>
-                        </a> 
+                        </a>
                         <a href="javscript:;">
                             <span>
-                                <img src="images/instagram.png" alt="insta"/>
+                                <img src="images/instagram.png" alt="insta" />
                             </span>
-                        </a> 
+                        </a>
                         <a href="javscript:;">
                             <span>
-                                <img src="images/twitter.png" alt="twit"/>
+                                <img src="images/twitter.png" alt="twit" />
                             </span>
-                        </a> 
+                        </a>
                         <a href="javscript:;">
                             <span>
-                                <img src="images/google.png" alt="twit"/>
+                                <img src="images/google.png" alt="twit" />
                             </span>
-                        </a> 
+                        </a>
                     </div>
                 </div>
                 <div class="w-s-6 w-m-3 w-l-2">
@@ -940,7 +1198,7 @@
                         </li>
                         <li>
                             <a href="javascript:;">
-                                Online Order 
+                                Online Order
                             </a>
                         </li>
                         <li>
@@ -953,13 +1211,13 @@
                 <div class="w-s-6 w-m-3 w-l-2">
                     <div class="f-head">
                         <h6>
-                           Our Services
+                            Our Services
                         </h6>
                     </div>
                     <ul>
                         <li>
                             <a href="javascript:;">
-                                Lunch 
+                                Lunch
                             </a>
                         </li>
                         <li>
@@ -969,12 +1227,12 @@
                         </li>
                         <li>
                             <a href="javascript:;">
-                               catering
+                                catering
                             </a>
                         </li>
                         <li>
                             <a href="javascript:;">
-                                Privacy 
+                                Privacy
                             </a>
                         </li>
                     </ul>
@@ -994,29 +1252,146 @@
                             <li>
                                 <a href="javascript:;">
                                     <i class="fa-solid fa-envelope"></i>
-                                   smitgandhi2001@gmail.com
+                                    smitgandhi2001@gmail.com
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:;">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    Satkhira khalikunj 
+                                    Satkhira khalikunj
                                 </a>
-                            </li>    
+                            </li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(".pre-loader").fadeOut(10000)
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 700) {
+                $(".back-top").fadeIn();
+            }
+            else {
+                console.log("555");
+                $(".back-top").fadeOut();
+            }
+        })
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 660) {
+                $("header").addClass('fixed');
+                $("header").css("background-color", "rgb(249, 170, 186)")
+            }
+            else {
+                $("header").removeClass('fixed');
+                $("header").css("background-color", "rgb(249, 218, 224)")
+            }
+
+        })
+        $(document).ready(function () {
+
+            $(".hamburger").click(function () {
+                $(".slide").slideToggle()
+            })
+            $(".mm-dropdown").click(function () {
+                $(".slide-megamenu").slideToggle()
+            })
+            $(".dropdown").click(function () {
+                $(".slide-dropdown-menu").slideToggle()
+            })
+            $(".back-top").click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 2000);
+            })
+
+            $("#dark").click(function () {
+                var curTheme = $('html').attr('data-theme');
+                console.log(curTheme);
+
+                if (curTheme == "default") {
+                    $("#dark a").html(`<i class="fa-solid fa-sun"></i>`)
+                    // $("#dark a i").addClass('fa-sun')
+                    // $("#dark a i").removeClass('fa-moon')
+                    $('html').attr('data-theme', 'dark')
+                }
+                else {
+                    $("#dark a").html(`<i class="fa-solid fa-moon"></i>`)
+                    // $("#dark a i").removeClass(`fa-sun`)
+                    // $("#dark a i").addClass('fa-moon')
+                    $('html').attr('data-theme', 'default');
+                }
+            })
+
+            $(".theme-setting").click(function () {
+                console.log("click");
+                $(".d-none").slideToggle();
+                $(".color").click(function () {
+                    var colorList = $(this).attr("id");
+                    console.log(colorList);
+
+                    $("#theme").attr('href', 'css/' + colorList + '.css')
+                })
+            })
+
+            $(document).mousemove(function (e) {
+                // $('.cursor').eq(0)
+                // .css({
+                //     left: e.pageX,
+                //     top: e.pageY
+                // });
+
+
+                // setTimeout(function() {
+                // $('.cursor').eq(1)
+                // .css({
+                //     left: e.pageX,
+                //     top: e.pageY
+                // });
+                // }, 100);
+            })
+            $(".banner, header").mouseover(function () {
+                $(".cursor").removeClass('d-none');
+            })
+            $(".banner").mouseleave(function () {
+                console.log(this);
+                $(".cursor").addClass('d-none');
+            })
+
+
+            // console.log(abc);
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("a#example1").fancybox();
+        })
+        $("a#example2").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+    </script>
+
 </body>
+
 </html>

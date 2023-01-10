@@ -325,7 +325,9 @@
     .hamburger{
         display: none;
     }
-
+    .slide{
+        display: none;
+    }
     /* .banner */
     .banner .left{
         text-align: left;
